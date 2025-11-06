@@ -61,17 +61,17 @@ body {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
-/* ====== Dish 页面样式 ====== */
+/* ========== Dish 页面样式 ====== */
 .dish-detail {
-  max-width: 900px;       /* 容器最大宽度 */
+  max-width: 900px;
   margin: 0 auto;
   padding: 40px 20px;
 }
 
 .dish-image {
-  width: 100%;            /* 图片宽度自适应容器 */
-  max-height: 600px;      /* 控制最大高度 */
-  object-fit: cover;      /* 保持比例裁剪 */
+  width: 100%;
+  max-height: 600px;
+  object-fit: cover;
   border-radius: 12px;
   margin-bottom: 30px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);

@@ -61,6 +61,54 @@ body {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
+/* ====== Dish 页面样式 ====== */
+.dish-detail {
+  max-width: 900px;       /* 容器最大宽度 */
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.dish-image {
+  width: 100%;            /* 图片宽度自适应容器 */
+  max-height: 600px;      /* 控制最大高度 */
+  object-fit: cover;      /* 保持比例裁剪 */
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.dish-info h2 {
+  margin-top: 30px;
+  font-size: 1.8rem;
+  color: #3b2f2f;
+  border-bottom: 1px solid #d8c4a0;
+  padding-bottom: 8px;
+  font-weight: 600;
+}
+
+.dish-info p {
+  line-height: 1.8;
+  font-size: 1.1rem;
+  margin-top: 10px;
+  color: #2c2c2c;
+}
+
+.back-button {
+  display: inline-block;
+  margin-top: 30px;
+  background-color: #d8c4a0;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #c5b089;
+}
+
 /* ========== Footer ========== */
 footer {
   text-align: center;
